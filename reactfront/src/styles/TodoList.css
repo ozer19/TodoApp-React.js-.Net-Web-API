@@ -1,0 +1,47 @@
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .todo-table th,
+  .todo-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .todo-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .todo-table td select {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+  .todo-table td button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .todo-table td button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .todo-status-new {
+    color: #007bff;
+  }
+  
+  .todo-status-in-progress {
+    color: #ffc107;
+  }
+  
+  .todo-status-completed {
+    color: #28a745;
+  }
+  
